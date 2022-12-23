@@ -1,7 +1,7 @@
 package com.mycompany.crud;
 
 
-public class Loading extends Anggota {
+public class Loading extends Anggota{
     private String txtPercent="0%";
     
     public Loading() {
@@ -20,7 +20,6 @@ public class Loading extends Anggota {
 //    inheritance
     void daftarAnggota(){
         int i=1;
-        
         for (String n : Anggota.nama) {
             switch (i) {
                 case 1 -> anggota1.setText(n);
@@ -109,7 +108,6 @@ public class Loading extends Anggota {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Loading().setVisible(true);
-                
             }
         });
     }

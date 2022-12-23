@@ -1,23 +1,17 @@
 package com.mycompany.crud;
 
+
 public class Anggota extends javax.swing.JFrame {
-    static String[] nama = {
-            "Aldhyno Yogatama      | L200210014",
-            "Muhammad Irfan Zahran | L200210016", 
-            "Muhammad Dzaki Hanifa | L200210032", 
-            "Rifan Ardyansyah      | L200210045"};
-    
-//    static String[] nama(){
-//        nama = {
-//            "Muhammad Irfan Zahran | L200210016",
-//            "Muhammad Irfan Zahran | L200210016", 
-//            "Muhammad Irfan Zahran | L200210016", 
-//            "Muhammad Irfan Zahran | L200210016"};
-//        return nama;
-//    }
+     static String[] nama = new String[4];
 
     public Anggota() {
         initComponents();
+    }
+    public Anggota(String anggota1, String anggota2, String anggota3, String anggota4){
+        this.nama[0]=anggota1;
+        this.nama[1]=anggota2;
+        this.nama[2]=anggota3;
+        this.nama[3]=anggota4;
     }
 
     @SuppressWarnings("unchecked")
@@ -44,7 +38,7 @@ public class Anggota extends javax.swing.JFrame {
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Anggota().setVisible(true);
+                
             }
         });
     }

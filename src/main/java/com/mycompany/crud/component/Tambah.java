@@ -1,5 +1,8 @@
 package com.mycompany.crud.component;
 
+import java.awt.image.BufferedImage;
+import java.io.File;
+import javax.imageio.ImageIO;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
@@ -26,6 +29,8 @@ public class Tambah extends javax.swing.JFrame {
         btnKembali = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(242, 200, 22));
+        setForeground(java.awt.Color.green);
 
         jLabel1.setText("Tahun : ");
 
