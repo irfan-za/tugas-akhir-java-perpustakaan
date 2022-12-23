@@ -8,6 +8,7 @@ public class Loading extends Anggota{
         initComponents();
 //        menampilkan daftar anggota kelompok
         daftarAnggota();
+        infoAnggota();
     }
 //    getter & setter [encapsulation]
     void getTxtPercent(){
@@ -33,6 +34,9 @@ public class Loading extends Anggota{
         }
     }
     
+    void infoAnggota(){
+        System.out.println("Menampilkan info anggota.");
+    }
     
 
 

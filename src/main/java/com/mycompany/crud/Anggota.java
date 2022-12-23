@@ -6,6 +6,10 @@ public class Anggota extends javax.swing.JFrame {
 
     public Anggota() {
         initComponents();
+        infoAnggota();
+    }
+    void infoAnggota(){
+        System.out.println("Sedang menambahkan info anggota.");
     }
     public Anggota(String anggota1, String anggota2, String anggota3, String anggota4){
         this.nama[0]=anggota1;
