@@ -83,7 +83,7 @@ public class Loading extends Anggota{
                     .addGroup(layout.createSequentialGroup()
                         .addGap(123, 123, 123)
                         .addComponent(jLabel1)))
-                .addContainerGap(141, Short.MAX_VALUE))
+                .addContainerGap(136, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -122,7 +122,7 @@ public class Loading extends Anggota{
     private javax.swing.JLabel anggota3;
     private javax.swing.JLabel anggota4;
     private javax.swing.JLabel jLabel1;
-    javax.swing.JLabel loadingPercent;
+    private javax.swing.JLabel loadingPercent;
     // End of variables declaration//GEN-END:variables
 
 
