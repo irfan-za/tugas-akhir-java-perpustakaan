@@ -149,7 +149,7 @@
                       <Data value="2019"/>
                     </Column>
                     <Column editable="true" title="Penulis" type="java.lang.Object">
-                      <Data value="Irfan"/>
+                      <Data value="Ramadhan"/>
                       <Data value="Budi"/>
                       <Data value="Gunawan"/>
                     </Column>
@@ -212,7 +212,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="18" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Perpustakaan 123"/>
+            <Property name="text" type="java.lang.String" value="Perpustakaan Ngemplak"/>
           </Properties>
         </Component>
       </SubComponents>

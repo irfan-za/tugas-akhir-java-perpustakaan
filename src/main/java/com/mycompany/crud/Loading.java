@@ -34,6 +34,7 @@ public class Loading extends Anggota{
         }
     }
     
+    @Override
     void infoAnggota(){
         System.out.println("Menampilkan info anggota.");
     }
@@ -56,7 +57,7 @@ public class Loading extends Anggota{
         setSize(new java.awt.Dimension(382, 500));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel1.setText("Perustakaan 123");
+        jLabel1.setText("Perpustakaan Ngemplak");
 
         loadingPercent.setFont(new java.awt.Font("Segoe UI", 1, 12));
         loadingPercent.setText("Loading 0%");
@@ -81,16 +82,16 @@ public class Loading extends Anggota{
                         .addGap(99, 99, 99)
                         .addComponent(anggota1))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(123, 123, 123)
+                        .addGap(86, 86, 86)
                         .addComponent(jLabel1)))
-                .addContainerGap(136, Short.MAX_VALUE))
+                .addContainerGap(105, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(44, 44, 44)
+                .addGap(45, 45, 45)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 199, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 198, Short.MAX_VALUE)
                 .addComponent(loadingPercent)
                 .addGap(78, 78, 78)
                 .addComponent(anggota1)
@@ -122,7 +123,7 @@ public class Loading extends Anggota{
     private javax.swing.JLabel anggota3;
     private javax.swing.JLabel anggota4;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel loadingPercent;
+    javax.swing.JLabel loadingPercent;
     // End of variables declaration//GEN-END:variables
 
 

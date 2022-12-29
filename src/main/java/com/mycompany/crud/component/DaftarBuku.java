@@ -70,7 +70,7 @@ public class DaftarBuku extends javax.swing.JFrame {
 
         table.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"2020", "Irfan", "Gramedia", "Belajar Java"},
+                {"2020", "Ramadhan", "Gramedia", "Belajar Java"},
                 {"2021", "Budi", "Kompas", "Panduan Java untuk Pemula"},
                 {"2019", "Gunawan", "Noura", "Menggambar Pemandangan"}
             },
@@ -92,7 +92,7 @@ public class DaftarBuku extends javax.swing.JFrame {
         });
 
         title.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        title.setText("Perpustakaan 123");
+        title.setText("Perpustakaan Ngemplak");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
